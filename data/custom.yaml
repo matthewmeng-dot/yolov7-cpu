@@ -1,6 +1,6 @@
-train: ./dataset/train/images
-val: ./dataset/valid/images
-test: ./dataset/test/images
+train: /content/yolov7-cpu/dataset/train/images 
+val: /content/yolov7-cpu/dataset/valid/images
+test: /content/yolov7-cpu/dataset/test/images
 
 nc: 3
 names: ['blue-sample', 'red-sample', 'yellow-sample']
