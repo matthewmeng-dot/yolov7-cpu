@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 3
+names: ['blue-sample', 'red-sample', 'yellow-sample']
+
+roboflow:
+  workspace: 8579-classical-engineers
+  project: 8579-into-the-deep-samples
+  version: 7
+  license: Private
+  url: https://universe.roboflow.com/8579-classical-engineers/8579-into-the-deep-samples/dataset/7
